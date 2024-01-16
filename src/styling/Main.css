@@ -1,0 +1,78 @@
+.mainComponent{
+    height: 100vh;
+    background-color: rgb(222, 228, 237);
+}
+.selectedUser{
+    margin: auto;
+}
+.allSelectedUser p{
+    display: inline-block;
+    padding: .4rem;
+    margin-right: 1rem;
+    background-color: rgb(78, 173, 233);
+    border-radius: 10px;
+}
+.heading{
+    text-align: left;
+    padding: 1rem 9rem 0rem;
+    text-decoration: underline;
+    font-family: cursive;
+}
+.inputBar{
+    padding: 1rem;
+}
+.inputField{
+    outline: 0;
+    color: rgb(27, 105, 146);
+    font-weight: bold;
+    font-size: 1rem;
+    height: 4.5vh;
+    border-width: 0 0 2px;
+    border-color: rgb(27, 105, 146);
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+}
+ul{
+    background-color: white;
+    list-style-type: none;
+    width: 35vw;
+    margin: 1rem auto;
+    max-height: 50vh;
+    overflow-x: scroll;
+    box-shadow: 5px 5px 5px 1px rgb(197, 201, 206);
+}
+li:hover{
+    background-color: rgb(231, 237, 239);
+}
+.userDetailList p{
+    display: inline-block;
+    padding-right: .8rem;
+}
+.userNameList{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+.userNameEmail{
+    font-family:Arial, Helvetica, sans-serif;
+    color: gray;
+}
+.img1{
+    position: fixed;
+    bottom: 0%;
+    left: 7%
+}
+.img2{
+    position: fixed;
+    bottom: 0%;
+    right: 7%
+}
+.selectedAndInputField{
+    background-color: white;
+    width: 80vw;
+    margin: 0 auto;
+    border-bottom: 3px solid gray;
+}
+.selectedAndInputField div{
+    display: inline;
+    background-color: white;
+}
